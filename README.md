@@ -15,12 +15,12 @@ npm install --save growl_lib
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'growl_lib'
-import 'growl_lib/dist/index.css'
+
+import { Growl } from 'growl_lib'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <Growl message={''} />
   }
 }
 ```

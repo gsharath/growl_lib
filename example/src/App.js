@@ -1,7 +1,6 @@
 import React from 'react'
 
-import { Growl, useGrowl } from 'growl_lib'
-// import 'growl_lib/dist/index.css'
+import { Growl } from 'growl_lib'
 
 const App = () => {
   // const active =1, setActive = 10;
